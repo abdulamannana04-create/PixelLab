@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pixel Photo Editor</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#121212;
+  color:white;
+}
+
+.header{
+  background:#1e1e1e;
+  padding:18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #333;
+}
+
+.logo{
+  font-size:26px;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+.logo span{
+  color:#00d084;
+}
+
+.menu{
+  font-size:25px;
+}
+
+.container{
+  padding:15px;
+}
+
+.project-box{
+  background:#1e1e1e;
+  padding:20px;
+  border-radius:18px;
+  margin-bottom:20px;
+}
+
+.project-box h2{
+  margin-bottom:10px;
+}
+
+.project-btn{
+  background:#00a86b;
+  color:white;
+  border:none;
+  padding:14px;
+  border-radius:12px;
+  width:100%;
+  font-size:17px;
+  margin-top:10px;
+}
+
+.tools-title{
+  font-size:22px;
+  margin:20px 0 12px;
+}
+
+.tools{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.tool{
+  background:#1e1e1e;
+  padding:22px 10px;
+  text-align:center;
+  border-radius:18px;
+  font-size:16px;
+}
+
+.tool-icon{
+  font-size:35px;
+  margin-bottom:8px;
+}
+
+.font-section{
+  margin-top:25px;
+}
+
+.font-card{
+  background:#1e1e1e;
+  padding:15px;
+  border-radius:15px;
+  margin-top:10px;
+  font-size:22px;
+}
+
+.font1{
+  font-family:cursive;
+}
+
+.font2{
+  font-family:monospace;
+}
+
+.font3{
+  font-family:serif;
+  font-weight:bold;
+}
+
+.bottom{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:#1e1e1e;
+  display:flex;
+  justify-content:space-around;
+  padding:15px;
+  border-top:1px solid #333;
+}
+
+.bottom div{
+  text-align:center;
+  font-size:14px;
+}
+
+.preview{
+  background:#252525;
+  height:180px;
+  border-radius:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#888;
+  margin-bottom:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="logo">
+Pixel<span>Lab</span>
+</div>
+
+<div class="menu">
+☰
+</div>
+
+</div>
+
+
+<div class="container">
+
+<div class="preview">
+🖼️ আপনার ছবি এখানে আসবে
+</div>
+
+
+<div class="project-box">
+
+<h2>📁 My Projects</h2>
+
+<p>আপনার এডিট করা প্রজেক্ট এখানে থাকবে</p>
+
+<button class="project-btn">
++ New Project
+</button>
+
+<button class="project-btn">
+💾 Save Project
+</button>
+
+</div>
+
+
+<div class="tools-title">
+🛠 Editing Tools
+</div>
+
+
+<div class="tools">
+
+<div class="tool">
+<div class="tool-icon">✂️</div>
+Background Remove
+</div>
+
+<div class="tool">
+<div class="tool-icon">🖼️</div>
+Remove Object
+</div>
+
+<div class="tool">
+<div class="tool-icon">👤</div>
+Remove Person
+</div>
+
+<div class="tool">
+<div class="tool-icon">✨</div>
+Beauty Tool
+</div>
+
+<div class="tool">
+<div class="tool-icon">🎨</div>
+Color Tool
+</div>
+
+<div class="tool">
+<div class="tool-icon">🔤</div>
+Add Text
+</div>
+
+<div class="tool">
+<div class="tool-icon">🌄</div>
+Background
+</div>
+
+<div class="tool">
+<div class="tool-icon">💾</div>
+Export Image
+</div>
+
+</div>
+
+
+<div class="font-section">
+
+<div class="tools-title">
+🔤 Design Fonts
+</div>
+
+<div class="font-card font1">
+Pixel Design Font
+</div>
+
+<div class="font-card font2">
+PIXEL MODERN FONT
+</div>
+
+<div class="font-card font3">
+বাংলা ডিজাইন ফন্ট
+</div>
+
+</div>
+
+</div>
+
+
+<div class="bottom">
+
+<div>
+🏠<br>Home
+</div>
+
+<div>
+📁<br>Projects
+</div>
+
+<div>
+🛠️<br>Tools
+</div>
+
+<div>
+⚙️<br>Settings
+</div>
+
+</div>
+
+</body>
+</html>
